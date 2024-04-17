@@ -1,0 +1,22 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "My App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "config": {
+    "from_email": "process.env.FROM_EMAIL",
+    "api_key": "process.env.API_KEY",
+    "api_secret": "process.env.API_SECRET",
+    "jwt_secret": "process.env.JWT_SECRET",
+    "redis_url": "process.env.REDIS_URL",
+    "cookie_secret": "process.env.COOKIE_SECRET"
+  }
+}
