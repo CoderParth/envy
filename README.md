@@ -1,16 +1,16 @@
 ## Problem:
-Most repos online, mostly Node.js projects does not contain ".env.example" file
-though environment environment are generally required for those projects to run. 
+Most repos online, mostly Node.js projects, does not contain ".env.example" file
+though environment environment are generally required for these projects to run. 
 
-To fix this, can do it manually by looking for envs, and adding them to your .env file,
+To fix this, you can do it manually by looking for envs, and adding them to your .env file,
 but that is a boring and a time-consuming task.
 
-Inorder to automate this task, I decide to created this tool and named it "envy".
+Inorder to automate this task, I decided to create this tool and named it as "envy".
 It is written in go, and makes use of go's powerful concurrency for efficiency.
 Currently, this tool supports only nodejs projects. 
 
-Once you build the program, and run it in your specific nodejs project directory,
-it scans all the dirs and files, extracts env variables, and then writes it in the 
+Once you build the program, you can run it in your specific nodejs project directory.
+It scans all the dirs and files, extracts env variables, and then writes it in the 
 ".env.example" file.
 
 
