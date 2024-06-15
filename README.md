@@ -1,5 +1,5 @@
 ## Problem:
-Most repos online, mostly Node.js projects, does not contain ".env.example" file
+Most repos online, mostly Node.js projects, do not contain ".env.example" file
 though environment variables are generally required for these projects to run. 
 
 To fix this, you can do it manually by looking for envs, and adding them to your .env file,
