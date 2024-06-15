@@ -7,7 +7,7 @@ but that is a boring and a time-consuming task.
 
 Inorder to automate this task, I decided to create this tool and named it as "envy".
 It is written in go, and makes use of go's powerful concurrency for efficiency.
-Currently, this tool supports only nodejs projects. 
+Currently, this tool supports nodejs projects only. 
 
 The goal of this progam/tool is to make setting up the environment variables 
 for your project much easier and faster.
